@@ -88,7 +88,7 @@
         SYMBOLS {
             bindings = <
 &trans    &kp LS(NUMBER_6)  &kp LS(INT3)      &kp LS(SQT)   &trans                                &kp LS(NUMBER_4)  &kp LBKT                 &kp LS(RBKT)      &kp LS(NUHS)      &trans
-&kp INT3  &kp LS(N2)        &kp LS(NUMBER_7)  &kp MINUS     &kp LS(EQUAL)     &trans      &trans  &kp LS(EQUAL)     &kp LS(INTERNATIONAL_1)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(LBKT)
+&kp INT3  &kp LS(N2)        &kp LS(NUMBER_7)  &kp MINUS     &kp LS(MINUS)     &trans      &trans  &kp LS(EQUAL)     &kp LS(INTERNATIONAL_1)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(LBKT)
 &trans    &kp SEMI          &kp SQT           &kp LS(SEMI)  &kp LS(NUMBER_5)  &trans      &trans  &kp EQUAL         &kp LS(NUMBER_3)         &kp RBKT          &kp NUHS          &kp LS(NUMBER_1)
 &trans    &trans            &trans            &trans        &trans            &trans      &trans  &trans                                                                         &trans
             >;
