@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W           &kp E             &kp R         &kp T                                          &kp Y            &kp U        &lt 5 I           &kp O           &kp P
-&mt LEFT_GUI A    &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F   &kp G        &kp LS(LG(S))      &kp MINUS      &kp H            &mt LCTRL J  &mt LEFT_SHIFT K  &mt LEFT_ALT L  &mt LEFT_GUI MINUS
-&mt LEFT_SHIFT Z  &kp X           &kp C             &kp V         &kp B        &kp COLON          &kp SEMICOLON  &kp N            &kp M        &kp COMMA         &kp DOT         &kp SLASH
-&kp LCTRL         &kp LEFT_WIN    &kp LEFT_ALT      &kp LEFT_GUI  &lt 1 SPACE  &lt 2 TAB          &lt 2 ENTER    &lt 1 BACKSPACE                                                 &mo 5
+&kp Q             &kp W           &kp E             &kp R         &kp T                                                  &kp Y            &kp U        &lt 5 I           &kp O           &kp P
+&mt LEFT_GUI A    &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F   &kp G        &kp LC(LG(LEFT_ARROW))       &kp LC(C)    &kp H            &mt LCTRL J  &mt LEFT_SHIFT K  &mt LEFT_ALT L  &mt LEFT_GUI MINUS
+&mt LEFT_SHIFT Z  &kp X           &kp C             &kp V         &kp B        &kp LC(LG(RIGHT_ARROW))      &kp LC(V)    &kp N            &kp M        &kp COMMA         &kp DOT         &kp SLASH
+&kp LCTRL         &kp LEFT_WIN    &kp LEFT_ALT      &kp LEFT_GUI  &lt 1 SPACE  &lt 2 TAB                    &lt 2 ENTER  &lt 1 BACKSPACE                                                 &mo 5
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -78,19 +78,19 @@
 
         NUM_ARROWS {
             bindings = <
-&kp ESCAPE    &kp N7        &kp NUMBER_8  &kp NUMBER_9  &trans                         &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp F4
-&kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans     &trans      &trans  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2
-&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans      &trans  &trans         &trans          &trans          &kp F7           &kp F10
-&trans        &trans        &trans        &trans        &kp LANG2  &trans      &trans  &kp LANG1                                                       &trans
+&kp ESCAPE             &kp N7                 &kp NUMBER_8       &kp NUMBER_9        &trans                              &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp F4
+&mt LEFT_GUI NUMBER_0  &mt LEFT_ALT NUMBER_4  &mt LEFT_SHIFT N5  &mt LCTRL NUMBER_6  &trans     &kp LG(TAB)      &trans  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2
+&trans                 &kp NUMBER_1           &kp NUMBER_2       &kp NUMBER_3        &trans     &trans           &trans  &trans         &trans          &trans          &kp F7           &kp F10
+&trans                 &trans                 &trans             &trans              &kp LANG2  &trans           &trans  &kp LANG1                                                       &trans
             >;
         };
 
         SYMBOLS {
             bindings = <
-&trans    &kp LS(NUMBER_6)  &kp LS(INT3)      &kp LS(SQT)   &trans                                &kp LS(NUMBER_4)  &kp LBKT                 &kp LS(RBKT)      &kp LS(NUHS)      &trans
-&kp INT3  &kp LS(N2)        &kp LS(NUMBER_7)  &kp MINUS     &kp LS(MINUS)     &trans      &trans  &kp LS(EQUAL)     &kp LS(INTERNATIONAL_1)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(LBKT)
-&trans    &kp SEMI          &kp SQT           &kp LS(SEMI)  &kp LS(NUMBER_5)  &trans      &trans  &kp EQUAL         &kp LS(NUMBER_3)         &kp RBKT          &kp NUHS          &kp LS(NUMBER_1)
-&trans    &trans            &trans            &trans        &trans            &trans      &trans  &trans                                                                         &trans
+&trans    &kp LS(NUMBER_6)  &kp LS(INT3)      &kp LS(SQT)   &trans                                            &kp LS(NUMBER_4)  &kp LBKT                 &kp LS(RBKT)      &kp LS(NUHS)      &trans
+&kp INT3  &kp LS(N2)        &kp LS(NUMBER_7)  &kp MINUS     &kp LS(MINUS)     &kp LA(LC(DELETE))      &trans  &kp LS(EQUAL)     &kp LS(INTERNATIONAL_1)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(LBKT)
+&trans    &kp SEMI          &kp SQT           &kp LS(SEMI)  &kp LS(NUMBER_5)  &trans                  &trans  &kp EQUAL         &kp LS(NUMBER_3)         &kp RBKT          &kp NUHS          &kp LS(NUMBER_1)
+&trans    &trans            &trans            &trans        &trans            &trans                  &trans  &kp DEL                                                                        &trans
             >;
         };
 
